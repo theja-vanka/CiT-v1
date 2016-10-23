@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#142669">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+        <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+         android:text="UnderGraduate Programs"
+         android:textColor="#FFFFFF"
+         android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+     <ImageButton
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:scaleType="fitCenter"
+         android:id="@+id/mb_cse"
+         android:src="@drawable/d_cse"
+         android:layout_below="@+id/textView"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+     <ImageButton
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:scaleType="fitCenter"
+         android:id="@+id/mb_ise"
+         android:src="@drawable/d_ise"
+         android:layout_below="@+id/mb_ece"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+     <ImageButton
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:scaleType="fitCenter"
+         android:id="@+id/mb_ece"
+         android:src="@drawable/d_ece"
+         android:layout_alignTop="@+id/mb_cse"
+         android:layout_centerHorizontal="true" />
+     <ImageButton
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:scaleType="fitCenter"
+         android:id="@+id/mb_eee"
+         android:src="@drawable/d_eee"
+         android:layout_alignTop="@+id/mb_ise"
+         android:layout_alignLeft="@+id/mb_ece"
+         android:layout_alignStart="@+id/mb_ece" />
+     <ImageButton
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:scaleType="fitCenter"
+         android:id="@+id/mb_mec"
+         android:src="@drawable/d_mech"
+         android:layout_above="@+id/mb_ise"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true" />
+     <ImageButton
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:scaleType="fitCenter"
+         android:id="@+id/mb_civ"
+         android:src="@drawable/d_civ"
+         android:layout_alignTop="@+id/mb_eee"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PostGraduate Programs"
+            android:paddingTop="7dp"
+            android:id="@+id/textView3"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/mb_ise"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mb_pcse"
+            android:src="@drawable/md_csef"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mb_pcne"
+            android:src="@drawable/md_cnef"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/mb_pmd"
+            android:layout_alignStart="@+id/mb_pmd" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mb_pmca"
+            android:src="@drawable/md_mcaf"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mb_psig"
+            android:src="@drawable/md_sigf"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/mb_pcse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mb_pmd"
+            android:src="@drawable/md_mechf"
+            android:scaleType="fitCenter"
+            android:layout_alignTop="@+id/mb_psig"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mb_mba"
+            android:src="@drawable/md_mbaf"
+            android:scaleType="fitCenter"
+            android:layout_alignTop="@+id/mb_pmd"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</FrameLayout>

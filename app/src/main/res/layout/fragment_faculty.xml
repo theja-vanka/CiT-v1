@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#142669">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="27dp"
+            android:paddingBottom="27dp"
+            android:textSize="32dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Faculty"
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/cse_fac"
+            android:src="@drawable/d_cse"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/ise_fac"
+            android:src="@drawable/d_ise"
+            android:layout_below="@+id/cse_fac"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/ece_fac"
+            android:src="@drawable/d_ece"
+            android:layout_alignTop="@+id/cse_fac"
+            android:layout_centerHorizontal="true" />
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/eee_fac"
+            android:src="@drawable/d_eee"
+            android:layout_below="@+id/ece_fac"
+            android:layout_centerHorizontal="true" />
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/mec_fac"
+            android:src="@drawable/d_mech"
+            android:layout_alignTop="@+id/ece_fac"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/civ_fac"
+            android:src="@drawable/d_civ"
+            android:layout_below="@+id/mec_fac"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/pcse_fac"
+            android:src="@drawable/d_basicf"
+            android:scaleType="fitCenter"
+            android:layout_alignTop="@+id/mba_fac"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/pmca_fac"
+            android:src="@drawable/md_mcaf"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/eee_fac"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/mba_fac"
+            android:src="@drawable/md_mbaf"
+            android:scaleType="fitCenter"
+            android:layout_alignTop="@+id/pmca_fac"
+            android:layout_alignLeft="@+id/eee_fac"
+            android:layout_alignStart="@+id/eee_fac" />
+
+    </RelativeLayout>
+</FrameLayout>
